@@ -8,9 +8,9 @@ resource "aws_instance" "simple-instance" {
   subnet_id = "subnet-04e96a0d034c23849" //TODO  preciso resolver o data pro subnet - nao consigo pegar os id da subnet
 
   tags = {
-    Name = "simple-instance"
-    App  = "nginx"
-    Tier = "frontend"
+    Name = "simple-backend"
+    App  = "ansible"
+    Tier = "backend"
   }
 }
 

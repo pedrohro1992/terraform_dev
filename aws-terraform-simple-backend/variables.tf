@@ -1,7 +1,7 @@
 variable "cluster_name" {
   description = "The name to use for all the cluster resources"
   type        = string
-  default     = "nginx-frontend"
+  default     = "simple-backend"
 }
 
 variable "enable_alb" {
